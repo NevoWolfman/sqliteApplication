@@ -58,8 +58,8 @@
         app:layout_constraintStart_toEndOf="@+id/btnView"
         app:layout_constraintTop_toTopOf="@+id/btnView" />
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rvUserList"
+    <ListView
+        android:id="@+id/lvUserList"
         android:layout_width="409dp"
         android:layout_height="516dp"
         app:layout_constraintEnd_toEndOf="parent"
